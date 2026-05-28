@@ -1,18 +1,21 @@
 :root {
-  --text: #6b6375;
+  --color-primary: #34c94b;
+  --color-secondary: #121212;
+  --color-tertiary: #ffffff;
+  --text: #ffffff;
   --text-h: #08060d;
-  --bg: #fff;
+  --bg: #121212;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
+  --accent: #34c94b;
+  --accent-bg: rgba(52, 201, 75, 0.1);
+  --accent-border: rgba(52, 201, 75, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: "Poppins", system-ui, sans-serif !important;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -55,6 +58,7 @@ body {
 }
 
 #root {
+  font-family: var(--sans);
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
@@ -68,7 +72,7 @@ body {
 
 h1,
 h2 {
-  font-family: var(--heading);
+  font-family: var(--sans);
   font-weight: 500;
   color: var(--text-h);
 }
@@ -97,7 +101,7 @@ p {
 
 code,
 .counter {
-  font-family: var(--mono);
+  font-family: var(--sans);
   display: inline-flex;
   border-radius: 4px;
   color: var(--text-h);
