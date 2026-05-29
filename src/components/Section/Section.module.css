@@ -1,0 +1,41 @@
+.sectionContainer {
+  padding: 20px 32px;
+  background-color: #121212;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.toggleText {
+  color: var(--css-primary, #34cd5e);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0;
+}
+
+.gridWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.swiperContainer {
+  position: relative;
+  width: 100%;
+}
+
+.swiperSlide {
+  width: auto !important;
+}

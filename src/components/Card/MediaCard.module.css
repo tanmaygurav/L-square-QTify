@@ -1,0 +1,52 @@
+/* .chip {
+  font: var(--sans);
+  background-color: var(--color-secondary) !important;
+  color: var(--color-tertiary) !important;
+  margin: 0.5rem !important;
+} */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 159px;
+  gap: 8px;
+}
+
+.card {
+  position: relative;
+  width: 159px;
+  height: 205px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--css-white, #ffffff);
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding-left: 8px;
+  background-color: #ffffff;
+}
+
+.chip {
+  background-color: var(--css-black, #121212) !important;
+  color: #ffffff !important;
+  font-size: 10px !important;
+  font-weight: 400;
+}
+
+.titleWrapper p {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
